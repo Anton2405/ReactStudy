@@ -1,19 +1,14 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import About from './pages/About'
-import Post from './pages/Post'
+import { BrowserRouter, Route, Routes, Link, Navigate } from 'react-router-dom'
+import Navbar from './components/UI/Navbar/Navbar'
+import './styles/App.css'
+import AppRouter from './components/AppRouter'
 
 function App() {
-
-
-
-
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path='/about' element={<About />} />
-        <Route path='/post' element={<Post />} />
-      </Routes>
+      <Navbar />
+      <AppRouter />
     </BrowserRouter>
   );
 }
