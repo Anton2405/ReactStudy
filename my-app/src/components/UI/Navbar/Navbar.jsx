@@ -6,7 +6,7 @@ export default function Navbar() {
         <div className='navbar'>
             <div className='navbar__links'>
                 <Link to='/about'>О сайте</Link>
-                <Link to='/post'>Посты</Link>
+                <Link to='/posts'>Посты</Link>
             </div>
         </div>
     )
