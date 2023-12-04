@@ -12,5 +12,5 @@ function App() {
     </BrowserRouter>
   );
 }
-//1:46
+//2:33
 export default App;
